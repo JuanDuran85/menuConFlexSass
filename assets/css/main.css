@@ -1,0 +1,87 @@
+@media (max-width: 575.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/abstracts\/_mixins\.scss}line{font-family:\000033}}
+  ul li {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/abstracts\/_mixins\.scss}line{font-family:\0000310}}
+  ul li {
+    visibility: hidden;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/abstracts\/_mixins\.scss}line{font-family:\0000317}}
+  #icono {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/abstracts\/_mixins\.scss}line{font-family:\0000324}}
+  #icono {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/abstracts\/_mixins\.scss}line{font-family:\0000331}}
+  #icono {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/base\/_reset\.scss}line{font-family:\000031}}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/base\/_reset\.scss}line{font-family:\000039}}
+img {
+  width: 50px;
+  height: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/layout\/_navegacion\.scss}line{font-family:\000031}}
+.navegacion__barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: beige;
+  height: 60px;
+  padding: 20px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/layout\/_navegacion\.scss}line{font-family:\0000311}}
+.navegacion__barra__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/layout\/_navegacion\.scss}line{font-family:\0000317}}
+.navegacion__barra__item {
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/duran\/Downloads\/g4-vue\/navBarFlex\/assets\/sass\/layout\/_navegacion\.scss}line{font-family:\0000322}}
+.navegacion__barra__item:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */

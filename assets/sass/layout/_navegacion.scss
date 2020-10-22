@@ -1,0 +1,27 @@
+.navegacion__barra {
+    display: flex;
+    background-color: beige;
+    height: 60px;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: start;
+    
+    &__lista {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+
+    &__item {
+        margin: 0 10px;
+        font-size: 16px;
+        font-weight: 600;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+}
